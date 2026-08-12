@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Thinking — FanYou Chiang</title>
+<meta name="description" content="How I think about growth marketing, measurement, and marketing technology — plus occasional longer notes." />
+<link rel="stylesheet" href="assets/style.css" />
+<style>
+  .principle { border-top:1px solid var(--border); padding: 2.75rem 0; display:grid; grid-template-columns: 90px 1fr; gap: 1.5rem; }
+  @media (max-width:700px){ .principle{ grid-template-columns:1fr; } }
+  .principle .num { font-size:13px; color: var(--muted-2); }
+  .principle h3 { margin: .3rem 0 .75rem; font-size: clamp(1.2rem,2.2vw,1.5rem); font-weight:500; letter-spacing:-0.01em; }
+  .principle p { margin:0; max-width: 62ch; font-size:15px; line-height:1.75; color: var(--muted); }
+  .post-index a { display:flex; justify-content:space-between; gap:1rem; padding: 1.1rem 0; border-top:1px solid var(--border); font-size:14.5px; }
+  .post-index a:hover { color: var(--accent-2); }
+  .post-index .d { color: var(--muted-2); font-size:12px; white-space:nowrap; }
+  article.post { border-top:1px solid var(--border); padding: 3rem 0; scroll-margin-top: 6rem; }
+  article.post h3 { font-size: clamp(1.4rem,3vw,1.8rem); font-weight:500; letter-spacing:-0.01em; margin: .5rem 0 .5rem; }
+  article.post .meta { font-size:12px; color: var(--muted-2); }
+</style>
+</head>
+<body>
+<div class="noise"></div>
+<div class="cursor-spotlight" id="spot"></div>
+
+<header class="nav">
+  <div class="inner">
+    <a href="index.html" class="mono" style="font-size:13px;">FAN YOU CHIANG</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="capabilities.html">Capabilities</a>
+      <a href="thinking.html">Thinking</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="cta" href="contact.html">Let's talk</a>
+  </div>
+</header>
+
+<header class="page-header">
+  <div class="bg-fade" style="background:linear-gradient(180deg, rgba(94,234,212,.06), var(--background) 80%);"></div>
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot"></span><span class="mono">HOW I THINK</span></div>
+    <h1>A few things nine years taught me, that I didn't expect.</h1>
+    <p class="sub">Not a framework. Just what kept turning out to be true across SaaS, ecommerce, and hospitality companies in four different countries.</p>
+  </div>
+</header>
+
+<section style="padding-top:1rem;">
+  <div class="wrap-narrow">
+    <div class="principle"><span class="num mono">01</span><div><h3>Marketing problems usually aren't marketing problems.</h3><p>Most of the "marketing problems" I get called in for turn out to be measurement problems, or two teams quietly not trusting each other's numbers. Fix that, and half the marketing problem disappears on its own — no campaign required.</p></div></div>
+    <div class="principle"><span class="num mono">02</span><div><h3>The first dashboard I build isn't for executives. It's for the team doing the work.</h3><p>Executive dashboards get glanced at once a month. If the person running the campaign doesn't trust the number they're looking at every day, nothing downstream from it matters.</p></div></div>
+    <div class="principle"><span class="num mono">03</span><div><h3>Most companies buy more software before they fix their process.</h3><p>I've watched teams add a CDP, a new attribution tool, and a fourth analytics platform to solve a disagreement that was really just three people not agreeing on what "conversion" means. New software doesn't fix that.</p></div></div>
+    <div class="principle"><span class="num mono">04</span><div><h3>AI hasn't replaced marketers. It's made good judgment more valuable.</h3><p>Everyone can produce more content and more analysis now. The scarce thing isn't output anymore — it's knowing which of the fifty options the AI just handed you is actually worth doing.</p></div></div>
+    <div class="principle"><span class="num mono">05</span><div><h3>I'd rather be the one who says "not yet" than the one who launches on schedule.</h3><p>Most companies have a launch date they committed to before anyone checked whether the tracking actually works. I've delayed campaigns to fix that first. I've never once regretted it.</p></div></div>
+  </div>
+</section>
+
+<header class="page-header">
+  <div class="bg-fade" style="background:linear-gradient(180deg, rgba(124,108,255,.06), var(--background) 80%);"></div>
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot"></span><span class="mono">WRITING</span></div>
+    <h1 style="font-size:clamp(1.8rem,3.5vw,2.6rem);">Not a recruiter pitch. A place I think out loud about growth.</h1>
+    <p class="sub">Notes on what's actually going on inside SaaS and ecommerce marketing right now — written when something annoys me enough to write it down.</p>
+  </div>
+</header>
+
+<section style="padding-top:1rem; padding-bottom:0;">
+  <div class="wrap-narrow post-index">
+    <a href="#geo"><span>GEO isn't SEO with a new name</span><span class="d mono">AUG 2026</span></a>
+    <a href="#crm"><span>The CRM is the product</span><span class="d mono">JUL 2026</span></a>
+    <a href="#systems-hire"><span>Stop hiring growth marketers. Hire systems thinkers.</span><span class="d mono">JUN 2026</span></a>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap-narrow">
+    <article class="post" id="geo">
+      <p class="meta mono">AUG 2026 · 4 MIN READ</p>
+      <h3>GEO isn't SEO with a new name</h3>
+      <div class="post-body">
+        <p>Everyone's slapping "GEO" onto their SEO deck right now, and most of it is the same keyword-density thinking with a new acronym. An answer engine doesn't need a click — it needs to <strong>extract a clean, quotable fact</strong> and feel confident enough to cite it without sending the user anywhere.</p>
+        <p>The practical shift I make for clients: rebuild key pages around a single, unambiguous claim per section, back it with structured data, and stop writing introductions that exist purely to pad word count. It's less writing, not more.</p>
+      </div>
+    </article>
+    <article class="post" id="crm">
+      <p class="meta mono">JUL 2026 · 3 MIN READ</p>
+      <h3>The CRM is the product</h3>
+      <div class="post-body">
+        <p>Most companies treat their CRM as admin overhead. I treat it as the actual source of truth. When I rebuilt the CRM architecture at FCS Solutions, the point wasn't cleaner dashboards — marketing, sales, and ops were working from three different definitions of "qualified lead." SQL growth was a downstream effect of fixing that, not the goal itself.</p>
+      </div>
+    </article>
+    <article class="post" id="systems-hire">
+      <p class="meta mono">JUN 2026 · 3 MIN READ</p>
+      <h3>Stop hiring growth marketers. Hire systems thinkers.</h3>
+      <div class="post-body">
+        <p>A lot of 10–50 person companies hire their first growth marketer the way they'd hire their fifth. At that size you don't have a campaign problem. You have nothing to measure the campaign against. The tell in an interview: ask what they'd do in week one. If the answer is a campaign idea, keep looking.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="contact-block" style="border-top:1px solid var(--border);">
+  <div class="glow"></div>
+  <div class="wrap-narrow">
+    <h2 class="gradient-text">Disagree with something here?</h2>
+    <p>Good — that's usually where the more interesting conversation starts.</p>
+    <div class="btn-row"><a class="btn btn-primary magnetic" href="contact.html">Get in touch</a></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <span>© 2026 FanYou Chiang</span>
+  <span class="mono">TAIPEI, TAIWAN · OPEN TO A CONVERSATION</span>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FanYou Chiang — Growth Marketer &amp; Marketing Technologist, SaaS &amp; CRM/ESP</title>
+<meta name="description" content="Growth marketer and builder working across SEO/GEO, paid acquisition, CRM &amp; lifecycle, and marketing technology for B2B SaaS and eCommerce companies. Based in Taipei." />
+<link rel="stylesheet" href="assets/style.css" />
+<style>
+  #hero { min-height: 92vh; display:flex; flex-direction:column; justify-content:center; padding-top: 8rem; overflow:hidden; }
+  #hero .split { align-items:center; }
+  #hero .aurora { position:absolute; inset:0; z-index:-1; pointer-events:none; }
+  #hero .a1 { position:absolute; top:-160px; left:10%; width:700px; height:500px; background: rgba(124,108,255,.2); filter: blur(140px); border-radius:9999px; }
+  #hero h1 { font-size: clamp(2.3rem, 5vw, 3.6rem); font-weight:500; line-height: 1.03; letter-spacing:-0.02em; margin: .75rem 0 0; }
+  #hero p.sub { max-width: 480px; margin-top: 1.5rem; color: var(--muted); font-size: 16px; line-height: 1.7; }
+  #hero .proof-widget { position:relative; border-radius:24px; border:1px solid var(--border-strong); background:linear-gradient(180deg, rgba(124,108,255,.05), rgba(255,255,255,.01)); padding:1.75rem 1.75rem 1.25rem; }
+  #hero .proof-widget .pw-title { font-size:11px; letter-spacing:.02em; color:var(--muted-2); margin-bottom:1.1rem; }
+  #hero .proof-row { display:flex; align-items:center; gap:1rem; padding:.85rem 0; border-top:1px solid var(--border); }
+  #hero .proof-row:first-of-type { border-top:none; }
+  #hero .proof-row canvas { width:64px !important; height:32px !important; flex:none; }
+  #hero .proof-row .pw-num { font-size:1.05rem; font-weight:500; color:var(--foreground); white-space:nowrap; }
+  #hero .proof-row .pw-label { font-size:12px; color:var(--muted); line-height:1.4; }
+  #hero .pw-caption { font-size:11px; color:var(--muted-2); margin-top:1rem; text-align:right; }
+  @media (max-width:900px){ #hero .proof-widget{ order:-1; } }
+</style>
+</head>
+<body>
+<div class="noise"></div>
+<div class="cursor-spotlight" id="spot"></div>
+
+<header class="nav">
+  <div class="inner">
+    <a href="index.html" class="mono" style="font-size:13px;">FAN YOU CHIANG</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="capabilities.html">Capabilities</a>
+      <a href="thinking.html">Thinking</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="cta" href="contact.html">Let's talk</a>
+  </div>
+</header>
+
+<section id="hero">
+  <div class="aurora"><div class="a1"></div></div>
+  <div class="wrap split">
+    <div>
+      <div class="pill">
+        <span class="dot"></span>
+        <span class="mono" style="font-size:11.5px; color:var(--muted);">Growth marketer &amp; marketing technologist, based in Taipei</span>
+      </div>
+      <h1 class="gradient-text">Most growth hires can plan a strategy. I can also build it.</h1>
+      <p class="sub">Growth marketer for B2B SaaS and eCommerce teams, 10–100 people. I build the website, wire the CRM, write the SEO content, and run the ads — then use the data to decide what's next. Nine years, four countries, always the only marketing person in the room.</p>
+      <div class="chip-row" style="margin-top:1.5rem;">
+        <span class="chip">SEO / GEO</span><span class="chip">Paid Acquisition</span><span class="chip">CRM &amp; Lifecycle</span><span class="chip">SaaS</span><span class="chip">Partnerships</span><span class="chip">Websites</span><span class="chip">Analytics</span><span class="chip">AI</span>
+      </div>
+      <div class="btn-row">
+        <a href="work.html" class="btn btn-primary magnetic">See the ESP/CRM case study</a>
+        <a href="contact.html" class="btn btn-secondary magnetic">Let's talk</a>
+      </div>
+    </div>
+    <div class="proof-widget">
+      <div class="pw-title mono">A QUICK LOOK AT THE NUMBERS</div>
+      <div class="proof-row"><canvas id="sparkHeroA"></canvas><div><div class="pw-num">300% SQL growth</div><div class="pw-label">FCS Solutions</div></div></div>
+      <div class="proof-row"><canvas id="sparkHeroB"></canvas><div><div class="pw-num">0 → 30K impressions</div><div class="pw-label">Daohechian BnB, search</div></div></div>
+      <div class="proof-row"><canvas id="sparkHeroC"></canvas><div><div class="pw-num">5 retainers, 90 days</div><div class="pw-label">Ematic Solutions</div></div></div>
+      <div class="pw-caption mono">THREE OF FOUR CASE STUDIES BELOW</div>
+    </div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--border);">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot"></span><span class="mono">SELECTED RESULTS</span></div>
+
+    <p class="impact-group-title">Growth systems built</p>
+    <div class="impact-grid cols-4">
+      <div><canvas class="impact-spark" id="sparkC"></canvas><div class="impact-num gradient-text"><span class="counter" data-val="5" data-suf="">0</span></div><div class="impact-label">Recurring SEO retainers</div><div class="impact-detail">A new revenue line I built and sold at Ematic, from zero.</div></div>
+      <div><canvas class="impact-spark" id="sparkA"></canvas><div class="impact-num gradient-text"><span class="counter" data-val="300" data-suf="%">0%</span></div><div class="impact-label">SQL pipeline growth</div><div class="impact-detail">FCS Solutions, after sales stopped ignoring the lead list.</div></div>
+      <div><canvas class="impact-spark" id="sparkB"></canvas><div class="impact-num gradient-text"><span class="counter" data-val="180" data-suf="%">0%</span></div><div class="impact-label">New signup lift</div><div class="impact-detail">Spaceship, once we could finally see which channel deserved the credit.</div></div>
+      <div><canvas class="impact-spark" id="sparkD"></canvas><div class="impact-num gradient-text"><span class="counter" data-val="30" data-suf="K">0K</span></div><div class="impact-label">Search impressions</div><div class="impact-detail">Daohechian BnB, up from zero. Full story on the Work page.</div></div>
+    </div>
+
+    <p class="impact-group-title">Long-term partnerships</p>
+    <div class="impact-grid cols-4">
+      <div><div class="impact-num gradient-text"><span class="counter" data-val="6" data-suf="">0</span></div><div class="impact-label">Years with SparkyMall</div><div class="impact-detail">Sales up 30% YoY, six years in.</div></div>
+      <div><div class="impact-num gradient-text"><span class="counter" data-val="4" data-suf="">0</span></div><div class="impact-label">Years with FairLife</div><div class="impact-detail">CPA down to NT$80 and still improving.</div></div>
+      <div><div class="impact-num gradient-text"><span class="counter" data-val="200" data-suf="%">0%</span></div><div class="impact-label">Nstar organic traffic, YoY</div><div class="impact-detail">Pages that finally answer what people were typing.</div></div>
+      <div><div class="impact-num gradient-text"><span class="counter" data-val="4" data-suf="">0</span></div><div class="impact-label">Countries worked in</div><div class="impact-detail">Taiwan, Thailand, Singapore, Australia — same operator, different markets.</div></div>
+    </div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--border);">
+  <div class="wrap">
+    <div class="teaser-row">
+      <h2>Turning partner marketing into a profitable SEO service</h2>
+      <a class="see-all-btn" href="work.html">See all 4 case studies →</a>
+    </div>
+    <div class="case" style="margin-bottom:0;">
+      <div class="case-top"><span class="stack-tag mono">Ematic Solutions · New Revenue Line / SEO Consulting</span></div>
+      <p style="font-size:14.5px; line-height:1.75; color:var(--muted); margin:.75rem 0 0; max-width:70ch;">Ematic had strong partner relationships — Shopify, Klaviyo — but no structured SEO offering to convert recurring client demand into revenue. I built the consulting proposition, pricing, and sales narrative myself, sold it through the co-marketing webinars already running, and closed 5 recurring retainers within 3 months.</p>
+      <div class="case-result-row" style="align-items:center;">
+        <span class="case-result gradient-text">5 recurring retainers</span>
+        <span class="stack-result-detail">Profitable within 3 months.</span>
+        <canvas id="sparkFeatured" style="width:90px !important; height:36px !important; margin-left:auto;"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--border);">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot"></span><span class="mono">RECOMMENDATIONS</span></div>
+    <div class="rec-grid cols-3">
+      <div class="rec-card">
+        <div class="rec-person">
+          <img src="https://images.pexels.com/photos/34762357/pexels-photo-34762357.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Mr. Kuo" loading="lazy" />
+          <div><p class="rec-name">Mr. Kuo</p><p class="rec-role">Owner, FairLife Systems</p><span class="rec-tag mono">PAID ADS + SEO · 4 YEARS</span></div>
+        </div>
+        <p class="rec-quote">"Trent has been part of FairLife's growth for four years. Paid ads CPA is down to NT$80 and still improving, with impressions up 20% month over month. He owns his numbers and never needs to be chased for a report."</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-person">
+          <img src="assets/avatars/craig3.png" alt="Craig Burton" loading="lazy" />
+          <div><p class="rec-name">Craig Burton</p><p class="rec-role">Founder &amp; Director, CTB Digital Marketing</p><span class="rec-tag mono">MBK HOTEL &amp; TOURISM</span></div>
+        </div>
+        <p class="rec-quote">"I had the pleasure of managing Trent at MBK. Her work on Google Ads was excellent — she balanced performance, brand needs, and budget without overcomplicating things."</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-person">
+          <img src="https://images.pexels.com/photos/32844861/pexels-photo-32844861.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Paul Lin" loading="lazy" />
+          <div><p class="rec-name">Paul Lin</p><p class="rec-role">Owner, SparkyMall (AU)</p><span class="rec-tag mono">6 YEARS</span></div>
+        </div>
+        <p class="rec-quote">"Six years working with Trent across a couple of chapters, and she's the one person on the marketing side I've never had to double-check. Sales are up 30% year over year."</p>
+      </div>
+    </div>
+    <p style="text-align:center; margin-top:2rem;"><a class="see-all" href="work.html">Read all 6 recommendations →</a></p>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--border);">
+  <div class="wrap">
+    <div class="teaser-row"><h2>A few things that are true about how I work</h2></div>
+    <div class="grid-2">
+      <div class="tile"><span class="tile-num mono">01</span><h3>I fix the boring stuff first</h3><p>Most of my first month on any engagement has nothing to do with marketing. It's CRM hygiene, tracking, figuring out what "qualified lead" even means at that company.</p></div>
+      <div class="tile"><span class="tile-num mono">02</span><h3>I use AI to move faster, not to sound smarter</h3><p>I run a lot of research and reporting through AI tools now. It hasn't changed what I decide — it's changed how quickly I can test whether I'm right.</p></div>
+      <div class="tile"><span class="tile-num mono">03</span><h3>I don't hand things off</h3><p>SEO, paid, lifecycle, CRM — I've done all of it myself, which means nothing gets lost in translation between specialists who've never spoken.</p></div>
+      <div class="tile"><span class="tile-num mono">04</span><h3>I know what a lean team can't afford</h3><p>At a 15-person company, one bad hire in this seat costs you eighteen months. I've been that seat at four different companies now.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-block" style="border-top:1px solid var(--border);">
+  <div class="glow"></div>
+  <div class="wrap-narrow">
+    <h2 class="gradient-text">If something above sounded familiar, let's talk.</h2>
+    <p>Open to Growth Marketing Lead and Head of Growth roles at 10–100 person B2B SaaS and eCommerce companies — remote or APAC-wide.</p>
+    <div class="btn-row"><a class="btn btn-primary magnetic" href="contact.html">Get in touch</a></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <span>© 2026 FanYou Chiang</span>
+  <span class="mono">TAIPEI, TAIWAN · OPEN TO A CONVERSATION</span>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/charts.js"></script>
+</body>
+</html>
